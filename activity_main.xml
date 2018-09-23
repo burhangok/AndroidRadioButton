@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/egitimSecenekleri"
+            android:layout_width="350dp"
+            android:layout_height="336dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="69dp">
+
+            <RadioButton
+                android:id="@+id/lise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Lise" />
+
+            <RadioButton
+                android:id="@+id/lisans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Lisans" />
+
+            <RadioButton
+                android:id="@+id/yuksek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Yüksek Lisans" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/kaydet"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="27dp"
+            android:layout_marginStart="37dp"
+            android:text="Button" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
